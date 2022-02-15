@@ -1,17 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="">
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <!-- <Home propname="hello this is prop" /> -->
+    <!-- <Home proptwo="this is second prop" /> -->
+    <!-- <Fordirective /> -->
+    <Signup />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import HelloWorld from "./components/HelloWorld.vue";
+// import Home from "./components/Home.vue";
+import Fordirective from "./components/Fordirective.vue";
+import Signup from "./components/Signup.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    // HelloWorld,
+    // Home,
+    Fordirective,
+    Signup,
+  },
+};
 </script>
 
 <style>
